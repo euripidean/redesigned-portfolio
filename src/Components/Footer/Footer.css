@@ -1,0 +1,31 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fab {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 20px;
+}
+
+.footer-links {
+    padding-top: 3%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a i:hover {
+    transform: scale(1.5);
+}
+
+footer p {
+    font-size: 0.5rem;
+    padding: 20px 0;
+}

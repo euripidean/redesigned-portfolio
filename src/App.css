@@ -8,11 +8,15 @@ Colors {
 
 html, body {
     background-color: #FDFCDC;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     color: #323232;
-    max-width: 900px;
-    margin: 0 auto;
 }
+
+header {
+    background-image: url('/public/images/About.jpg');
+    background-size: cover;
+}
+
 
 
