@@ -1,9 +1,12 @@
 nav {
+    position: relative;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding: 0 20px;
     color: #323232;
+
 }
 
 nav ul {
@@ -36,11 +39,16 @@ nav ul li a:hover {
     border: 1px solid #323232;
 }
 
-header h1 {
+h1 {
     font-size: 4rem;
     padding: 20px;
     padding-bottom: 40px;
     margin: 0;
+}
+
+.header-image {
+    background-image: url('/public/images/About.jpg');
+    background-size: cover;
 }
 
 .github-img {

@@ -3,7 +3,8 @@ import './Header.css';
 
 function Header() {
     return (
-    <header>
+        <div className="header-image">
+    <div className="container">
         <nav>
             <ul>
                 <li><a href="#projects">Projects</a></li>
@@ -29,7 +30,8 @@ function Header() {
                 </div>
 
         </div>
-    </header>
+    </div>
+    </div>
     );
 
 }
