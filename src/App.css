@@ -1,17 +1,3 @@
-Colors {
-    --primary: #0081A7;
-    --secondary: #00AFB9;
-    --tertiary: #FDFCDC;
-    --quaternary: #FED9B7;
-    --quinary: #F07167;
-}
-
-html, body {
-    background-color: #FDFCDC;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    color: #323232;
-}
 
 
 
