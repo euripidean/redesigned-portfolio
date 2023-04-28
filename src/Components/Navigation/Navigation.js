@@ -41,7 +41,7 @@ const Navigation = () => {
 	return (
 		<header
 			id="top"
-			className={`w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l z-50 ${
+			className={`w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l pr-6 z-50 ${
 				isSticky ? 'pt-scroll' : ''
 			}`}
 		>
