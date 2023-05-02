@@ -73,3 +73,8 @@
     rotate(-45deg)
     translateY(0px);
 }
+
+.nav-link {
+  max-width: 120px;
+  text-align: center;
+}

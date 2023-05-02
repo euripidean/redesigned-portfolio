@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import "./Navigation.css";
 
 const Navigation = () => {
-
+	const location = useLocation();
 	const [isSticky, setIsSticky] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +48,7 @@ const Navigation = () => {
 		>
 			<nav
 				id="site-menu"
-				className={`flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white lg:p-10  ${
+				className={`flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white lg:pt-10 lg:pl-10  ${
 					isSticky ? 'nav-sticky' : ''
 				}`}
 			>
@@ -69,24 +70,35 @@ const Navigation = () => {
 						isOpen ? 'flex' : 'hidden'
 					}`}
 				>
-					<a
-						className="text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2"
-						href="/projects"
+					{location.pathname !== "/" && (
+            <NavLink
+              className={`nav-link text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 ${
+                ({ isActive }) => isActive ? "active" : ""
+              }`}
+              exact
+              to="/"
+            >
+              home
+            </NavLink>
+          )}
+					<NavLink
+						className={`nav-link text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 ${ ({isActive}) => isActive? 'active' : '' }`}
+						to="/work"
 					>
-						projects
-					</a>
-					<a
-						className="text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2"
-						href="/about"
+						work
+					</NavLink>
+					<NavLink
+						className={`nav-link text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 ${ ({isActive}) => isActive? 'active' : '' }`}
+						to="/about"
 					>
 						about
-					</a>
-					<a
-						className="text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2"
-						href="/contact"
+					</NavLink>
+					<NavLink
+						className={`nav-link text-dark font-light hover:font-bold text-3xl w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 ${ ({isActive}) => isActive? 'active' : '' }`}
+						to="/contact"
 					>
 						contact
-					</a>
+					</NavLink>
 				</div>
 			</nav>
 		</header>

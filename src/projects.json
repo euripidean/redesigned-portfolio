@@ -1,9 +1,37 @@
 [ {
-    "projectName" : "A",
-    "projectDescription" : "A",
-    "skillsUsed" : "A",
-    "projectLink" : "A",
-    "projectImage" : "A",
-    "projectImageAlt" : "A"
-}, {
-}]
+    "name" : "Test Project",
+    "description" : "Here's an example",
+    "skills" : [
+        "ruby on rails",
+        "css",
+        "html",
+        "javascript"
+    ],
+    "link" : "https://github.com/euripidean",
+    "image" : "https://user-images.githubusercontent.com/33559193/222307586-15b19c71-d9e1-47d2-ae2d-4bdab20fdecd.png",
+    "alt" : "Screenshot of project",
+    "details": [
+        "More detailed text about part 1",
+        "More detailed text about part 2",
+        "More detailed text about part 3" 
+    ]
+},
+{
+    "name" : "VIFF Connect",
+    "description" : "Online streaming platform for VIFF 2020",
+    "skills" : [
+        "project management",
+        "ticketing systems",
+        "css",
+        "user journeys"
+    ],
+    "link" : "https://connect.viff.org",
+    "image" : "./images/viffconnect.png",
+    "alt" : "Screenshot of project",
+    "details": [
+        "More detailed text about part 1",
+        "More detailed text about part 2",
+        "More detailed text about part 3"
+    ]
+}
+]
