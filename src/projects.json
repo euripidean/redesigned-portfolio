@@ -10,10 +10,11 @@
     "image" : "./images/viff.png",
     "alt" : "Screenshot of project",
     "details": [
-        "More detailed text about part 1",
-        "More detailed text about part 2",
-        "More detailed text about part 3" 
-    ]
+        "Oversaw the project from RFP to post-launch support. The project took approximately 9 months to complete and I also secured a grant of $16k to help pay for the implementation of Salesforce NPSP as the CRM.",
+        "Migrated all customer, event and sales data from AudienceView into Salesforce NPSP. Roughly 600,000 records were cleaned, deduplicated and migrated.",
+        "Scheduled and ran all meetings for the project, produced materials for the Senior Leadership Team and Board of Directors, and managed the project budget." 
+    ],
+    "outcome": "The new systems launched on time simultaneously and immediately improved the customer experience and reduced the amount of time spent on administrative tasks."
 },
 {
     "name" : "VIFF Connect",
@@ -21,51 +22,55 @@
     "skills" : [
         "Project Management",
         "Ticketing Systems",
-        "CSS"
+        "Team Leadership"
     ],
     "link" : "https://connect.viff.org",
     "image" : "./images/viffconnect.png",
     "alt" : "Screenshot of project",
     "details": [
-        "More detailed text about part 1",
-        "More detailed text about part 2",
-        "More detailed text about part 3"
-    ]
+        "Oversaw the emergency project to enable VIFF to host the 2020 edition of the festival online. This included choosing the streaming provider, hiring the development team to complete the API integration and demonstrating/reporting on progress to the rest of the organization.",
+        "Used my high-level knowledge of the AudienceView ticketing system to work with the CineSend development team and AudienceView to create a custom API integration that would allow us to sell tickets to the festival and directly link to the streaming platform with minimum friction for the customer.",
+        "Trained all other departments on the new platform, created trouble-shooting documents for customer service and built an integration with AirTable to allow for easier festival scheduling."
+    ],
+    "outcome": "The virtual festival was a resounding success, with over 6 million minutes of films streamed. We finished over our projected sales budget by a significant margin and grew our VIFF+ membership base by 500% putting VIFF in great position to survive the challenges of the Pandemic."
 },
 {
     "name" : "Earworm",
     "description" : "GoodReads for music",
     "skills" : [
         "Flask",
-        "Python",
         "SQL-Alchemy",
-        "CSS"
+        "CSS",
+        "Python"
     ],
     "link" : "https://github.com/euripidean/earworm",
     "image" : "./images/earworm.png",
     "alt" : "Screenshot of project",
     "details": [
-        "More detailed text about part 1",
-        "More detailed text about part 2",
-        "More detailed text about part 3"
-    ]
+        "Implemented a CRUD app using Flask and SQL-Alchemy to allow users to create, read, update and delete records from a database. I'm particularly pleased with the use of MixIns for form generation using WTForms which helped to keep my code DRY.",
+        "Used the relationships feature of SQL-Alchemy to create a many-to-many relationship between users and albums. This allowed me to create a user profile page that displayed all of the albums that a user had added to their collection.",
+        "I styled the app using CSS to create a clean, modern look. I also used the Jinja templating language to create a base template that I could extend for each page."
+    ],
+    "outcome": ""
 },
 {
     "name" : "Useless Generation",
     "description" : "A Manic Street Preachers API",
     "skills" : [
         "API",
+        "ChatGPT",
+        "Docsify",
         "Node.js",
-        "Express.js",
-        "ChatGPT"
+        "Express.js"
     ],
-    "link" : "",
-    "image" : "./images/placeholder-image.png",
+    "link" : "https://github.com/euripidean/useless-generation",
+    "image" : "./images/MSP.webp",
     "alt" : "Screenshot of project",
     "details": [
-        "More detailed text about part 1",
-        "More detailed text about part 2",
-        "More detailed text about part 3"
-    ]
+        "Created a Node.js API using Express.js to serve data from a MongoDB database. The API allows users to search for songs by title, album or year and returns the results in JSON format.",
+        "Utilized ChatGPT to populate the source JSON for all of the Manic Street Preachers studio albums and singles, which I then imported into MongoDB. This was a huge time-saver and a good experience of using ChatGPT to generate data.",
+        "Used Docsify to create documentation for the API. I found this to be a great tool for creating documentation and I will definitely use it again in the future."
+    ],
+    "outcome": ""
 }
 ]

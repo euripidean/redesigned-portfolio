@@ -7,9 +7,9 @@ function Project(props) {
     return(
         <div className="project-container relative mt-6 flex-col bg-gray-50 md:bg-white md:border md:border-black rounded-md p-4 md:hover:bg-gray-50">
           <h2 className="text-3xl font-bold">{name}</h2>
-          <h3 className="text-md text-gray-700">{description} and here's the id {id}</h3>
-          <figure className="w-full mt-5">
-            <img src={image} alt={alt} />
+          <h3 className="text-md text-gray-700">{description}</h3>
+          <figure className="w-full mt-5 ">
+            <img className="h-[300px] w-full object-cover object-top" src={image} alt={alt} />
           </figure>
           <div className="project-info mb-20">
             <ul className="flex flex-wrap py-2 md:mb-5">
