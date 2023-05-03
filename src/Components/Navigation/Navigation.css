@@ -78,3 +78,8 @@
   max-width: 120px;
   text-align: center;
 }
+
+.nav-link .active {
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+}

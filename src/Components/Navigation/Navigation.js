@@ -48,6 +48,7 @@ const Navigation = () => {
 		>
 			<nav
 				id="site-menu"
+				exact="true"
 				className={`flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white lg:pt-10 lg:pl-10  ${
 					isSticky ? 'nav-sticky' : ''
 				}`}

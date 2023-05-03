@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
     return (
         // 
-        <section className="container flex-col pt-20 md:max-w-[66%] md:pt-0" id="intro">
+        <section className="container flex-col pt-20 md:max-w-[66%] md:pt-0 max-w-[900px]" id="intro">
         <div className="relative m-auto h-screen">
             <figure className="absolute top-0 right-0 md:top-5 md:right-12">
             <img className="rounded-full opacity-75 w-64 sm:w-96 -z-10" src="./images/profile.jpeg" alt="Jane" />

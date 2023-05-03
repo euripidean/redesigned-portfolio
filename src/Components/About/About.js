@@ -9,12 +9,12 @@ const About = () => {
         <h2 className="text-3xl font-light">{` { `}<strong>'hello'</strong> in Yorkshire {`}`}</h2>
       <p className="text-2xl font-light my-10">I'm <strong>Jane</strong>. I'm a Yorkshire-born, Vancouver-living former ticketing manager now enrolled in the <strong>Dev Degree</strong> program with Shopify.</p>
       <figure className="mb-5">
-        <img className="w-full h-60 object-cover" src="./images/York.jpg" alt="York Minster" />
+        <img className="w-full h-64 object-cover" src="./images/York.jpg" alt="York Minster" />
       </figure>
       <p className="text-xl font-light my-5">As I study Applied Computer Science and complete Internship placements, I'm looking to develop skills as a Full-Stack Developer and ultimately specialize in data-focused engineering.</p>
       <h2 class="text-3xl font-bold my-10">Recent Work Experience</h2>
 <section class="flex-col max-w-[75%] m-auto md:grid md:grid-cols-2 md:gap-8 md:max-w-[100%] items-top">
-  <div className="mb-10 md:border-2 md:border-black md:p-8 md:rounded-sm">
+  <div className="mb-10 md:border-2 md:border-black md:p-8 md:rounded-md">
     <figure className="mb-5">
       <img className="p-8" src="./images/shopify.svg" alt="Shopify Logo" />
     </figure>
@@ -26,7 +26,7 @@ const About = () => {
         <li className="mb-2">Most recent impact review in the High Positive category</li>
     </ul>
   </div>
-  <div className="mb-10 md:border-2 md:border-black md:p-8 md:rounded-sm">
+  <div className="mb-10 md:border-2 md:border-black md:p-8 md:rounded-md">
     <figure className="mb-6">
       <img className="p-6 md:p-11" src="./images/VIFFLogo.png" alt="VIFF Logo" />
     </figure>
