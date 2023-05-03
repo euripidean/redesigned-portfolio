@@ -10,7 +10,7 @@ function Work() {
         return (
             <Project
                 key={i}
-                id={`project-${i}`}
+                id={i}
                 name={name}
                 description={description}
                 skills={skills}

@@ -9,7 +9,7 @@ const About = () => {
         <h2 className="text-3xl font-light">{` { `}<strong>'hello'</strong> in Yorkshire {`}`}</h2>
       <p className="text-2xl font-light my-10">I'm <strong>Jane</strong>. I'm a Yorkshire-born, Vancouver-living former ticketing manager now enrolled in the <strong>Dev Degree</strong> program with Shopify.</p>
       <figure className="mb-5">
-        <img className="w-full h-48 object-cover" src="./images/York.jpg" alt="York Minster" />
+        <img className="w-full h-60 object-cover" src="./images/York.jpg" alt="York Minster" />
       </figure>
       <p className="text-xl font-light my-5">As I study Applied Computer Science and complete Internship placements, I'm looking to develop skills as a Full-Stack Developer and ultimately specialize in data-focused engineering.</p>
       <h2 class="text-3xl font-bold my-10">Recent Work Experience</h2>

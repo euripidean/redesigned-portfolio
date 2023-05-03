@@ -1,10 +1,10 @@
 [ {
     "name" : "VIFF Systems Project",
-    "description" : "Here's an example",
+    "description" : "Overhauled the ticketing system, website and CRM",
     "skills" : [
-        "project management",
-        "data migration",
-        "team leadership"
+        "Project Management",
+        "Data Migration",
+        "Team Leadership"
     ],
     "link" : "https://github.com/euripidean",
     "image" : "./images/viff.png",
@@ -17,11 +17,11 @@
 },
 {
     "name" : "VIFF Connect",
-    "description" : "Online streaming platform for VIFF 2020",
+    "description" : "Implemented the streaming platform for VIFF 2020",
     "skills" : [
-        "project management",
-        "ticketing systems",
-        "css"
+        "Project Management",
+        "Ticketing Systems",
+        "CSS"
     ],
     "link" : "https://connect.viff.org",
     "image" : "./images/viffconnect.png",
@@ -36,12 +36,12 @@
     "name" : "Earworm",
     "description" : "GoodReads for music",
     "skills" : [
-        "flask",
-        "python",
-        "sql-alchemy",
-        "css"
+        "Flask",
+        "Python",
+        "SQL-Alchemy",
+        "CSS"
     ],
-    "link" : "",
+    "link" : "https://github.com/euripidean/earworm",
     "image" : "./images/earworm.png",
     "alt" : "Screenshot of project",
     "details": [
@@ -60,7 +60,7 @@
         "ChatGPT"
     ],
     "link" : "",
-    "image" : "./images/earworm.png",
+    "image" : "./images/placeholder-image.png",
     "alt" : "Screenshot of project",
     "details": [
         "More detailed text about part 1",
