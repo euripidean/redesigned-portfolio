@@ -23,8 +23,8 @@ function Work() {
     
 
     return (
-        <section className="container flex-col pt-20 md:max-w-[75%] md:pt-0" id="work">
-            <h1 className="text-5xl font-bold mb-5">Projects</h1>
+        <section className="container flex-col pt-20 md:max-w-[90%] md:pt-0" id="work">
+            <h1 className="text-5xl font-bold mb-10">Projects</h1>
             <div className="flex-col lg:grid lg:gap-8 lg:grid-cols-2">
                 {projects}
             </div>

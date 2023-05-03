@@ -1,14 +1,13 @@
 [ {
-    "name" : "Test Project",
+    "name" : "VIFF Systems Project",
     "description" : "Here's an example",
     "skills" : [
-        "ruby on rails",
-        "css",
-        "html",
-        "javascript"
+        "project management",
+        "data migration",
+        "team leadership"
     ],
     "link" : "https://github.com/euripidean",
-    "image" : "https://user-images.githubusercontent.com/33559193/222307586-15b19c71-d9e1-47d2-ae2d-4bdab20fdecd.png",
+    "image" : "./images/viff.png",
     "alt" : "Screenshot of project",
     "details": [
         "More detailed text about part 1",
@@ -22,11 +21,46 @@
     "skills" : [
         "project management",
         "ticketing systems",
-        "css",
-        "user journeys"
+        "css"
     ],
     "link" : "https://connect.viff.org",
     "image" : "./images/viffconnect.png",
+    "alt" : "Screenshot of project",
+    "details": [
+        "More detailed text about part 1",
+        "More detailed text about part 2",
+        "More detailed text about part 3"
+    ]
+},
+{
+    "name" : "Earworm",
+    "description" : "GoodReads for music",
+    "skills" : [
+        "flask",
+        "python",
+        "sql-alchemy",
+        "css"
+    ],
+    "link" : "",
+    "image" : "./images/earworm.png",
+    "alt" : "Screenshot of project",
+    "details": [
+        "More detailed text about part 1",
+        "More detailed text about part 2",
+        "More detailed text about part 3"
+    ]
+},
+{
+    "name" : "Useless Generation",
+    "description" : "A Manic Street Preachers API",
+    "skills" : [
+        "API",
+        "Node.js",
+        "Express.js",
+        "ChatGPT"
+    ],
+    "link" : "",
+    "image" : "./images/earworm.png",
     "alt" : "Screenshot of project",
     "details": [
         "More detailed text about part 1",

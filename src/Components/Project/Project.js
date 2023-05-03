@@ -3,24 +3,34 @@ import { Link } from "react-router-dom";
 import "./Project.css";
 
 function Project(props) {
-    const { name, description, skills, link, image, alt } = props;
+    const { id, name, skills, image, alt } = props;
     return(
-        <div className="project-container">
-            <div className="project-image">
-                <img src={image} alt={alt} />
+        <div className="project-container relative flex-col border border-black rounded-md p-4 hover:bg-gray-200">
+          <h2 className="text-3xl font-bold">{name}</h2>
+          <figure className="w-full">
+            <img src={image} alt={alt} />
+          </figure>
+          <div className="project-info mb-20">
+            <ul className="flex flex-wrap py-2 mb-5">
+              {skills.map((skill, index) => {
+                return (
+                  <li
+                    className="text-xs uppercase font-light bg-gray-50 rounded-md px-2 py-1 mb-1 mx-1"
+                    key={index}
+                  >
+                    {skill}
+                  </li>
+                );
+              })}
+            </ul>
             </div>
-            <div className="project-description">
-                <h2>{name}</h2>
-                <p>{description}</p>
-                <h3>Skills</h3>
-                <ul>
-                    {skills.map((skill, index) => {
-                        return <li key={index}>{skill}</li>
-                    })}
-                </ul>
-                <Link to={link}>View Project</Link>
-            </div>
-        </div>
+            <Link
+              to={`/details/${id}`}
+              className="absolute bottom-0 left-2 bg-white border border-black font-light rounded-md px-4 py-2 m-5 hover:bg-black hover:text-white"
+            >
+              View Project
+            </Link>
+          </div>
     )
 }
 

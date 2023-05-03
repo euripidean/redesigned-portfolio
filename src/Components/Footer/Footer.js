@@ -9,7 +9,7 @@ function Footer() {
             <a href="https://github.com/euripidean" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
             <a href="https://www.instagram.com/euripidean/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
             </div>
-            <p>© 2023 Jane Harrison</p>
+            <p>I live and work on the unceded territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ/Selilwitulh (Tsleil-Waututh) Nations.</p>
         </footer>
     );
 }
