@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
 import data from "../../work-data.js";
+import "./ProjectDetails.css";
 
 function ProjectDetails(props) {
     const params = useParams();
@@ -12,23 +13,23 @@ function ProjectDetails(props) {
         <section className="container flex-col pt-20 md:max-w-[90%] md:pt-0">
         <div className="project-details-container flex flex-col">
             <h1 className="text-5xl font-bold mt-5">{name}</h1>
-            <h3 className="text-md text-gray-700">{description}.</h3>
-            {/* If the link contains the word github, put a button saying 'view on github' and link to the github page. Otherwise, put a button saying 'view live' and link to the live page. */}
+            <h3 className="text-md text-gray-700 mt-2">{description}.</h3>
             {link.includes("github") ? (
                 <a
-                    href={link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-[90%] m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md: mr-0 md:text-xl rounded-md px-4 py-2 md:group-hover:bg-white md:group-hover:text-black"
-                >
-                    GitHub <i className="ml-2 text-2xl fab fa-github text-white"></i>
-                </a>
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                className="group/link m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md:mr-0 md:text-xl rounded-md px-4 py-2
+                hover:bg-white hover:border-black hover:text-black"
+            >
+                GitHub <i className="group/link ml-2 text-2xl fab fa-github text-white"></i>
+            </a>
             ) : (
                 <a
                     href={link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-[90%] m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md: mr-0 md:text-xl rounded-md px-4 py-2 md:hover:bg-black md:hover:text-white"
+                    className="w-[90%] m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md: mr-0 md:text-xl rounded-md px-4 py-2 hover:bg-white hover:border-black hover:text-black"
                 >
                     View Live
                 </a>

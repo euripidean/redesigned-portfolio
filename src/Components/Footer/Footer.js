@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 function Footer() {
     const location = useLocation();
     return (
-        <footer className="mb-15 md:p-8 h-40 flex flex-col items-center">
+        <footer className="mb-15 md:p-8 h-40 flex flex-col items-center 3xl:pb-5 3xl:mt-0">
             { location.pathname !== "/contact" && (
                 <div className="footer-links space-x-8">
                 <a href="https://www.linkedin.com/in/jxharrison" target="_blank" rel="noreferrer"><i className="text-gray-700 fab fa-linkedin text-5xl hover:scale-125 hover:text-black"></i></a>
