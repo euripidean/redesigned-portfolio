@@ -8,9 +8,9 @@ function Footer() {
         <footer className="mb-15 md:p-8 h-40 flex flex-col items-center 3xl:pb-5 3xl:mt-0">
             { location.pathname !== "/contact" && (
                 <div className="footer-links space-x-8">
-                <a href="https://www.linkedin.com/in/jxharrison" target="_blank" rel="noreferrer"><i className="text-gray-700 fab fa-linkedin text-5xl hover:scale-125 hover:text-black"></i></a>
-                <a href="https://github.com/euripidean" target="_blank" rel="noreferrer"><i className="text-gray-700 fab fa-github text-5xl hover:scale-125 hover:text-black"></i></a>
-                <a href="mailto:jxharrison@hotmail.com"><i className="text-gray-700 fa-regular fa-envelope text-5xl hover:scale-125 hover:text-black"></i></a>
+                <a href="https://www.linkedin.com/in/jxharrison" aria-label="View Jane's LinkedIn Profile" target="_blank" rel="noreferrer"><i className="text-gray-700 fab fa-linkedin text-5xl hover:scale-125 hover:text-black"></i></a>
+                <a href="https://github.com/euripidean" aria-label="Visit Jane's GitHub Profile" target="_blank" rel="noreferrer"><i className="text-gray-700 fab fa-github text-5xl hover:scale-125 hover:text-black"></i></a>
+                <a href="mailto:jxharrison@hotmail.com" aria-label="Send Jane an email"><i className="text-gray-700 fa-regular fa-envelope text-5xl hover:scale-125 hover:text-black"></i></a>
                 </div>
             )
 }

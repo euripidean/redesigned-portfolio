@@ -13,13 +13,13 @@ function ProjectDetails(props) {
         <section className="container flex-col pt-20 md:max-w-[90%] md:pt-0">
         <div className="project-details-container flex flex-col">
             <h1 className="text-5xl font-bold mt-5">{name}</h1>
-            <h3 className="text-md text-gray-700 mt-2">{description}.</h3>
+            <h3 className="text-md text-gray-700 mt-2 mb-4">{description}.</h3>
             {link.includes("github") ? (
                 <a
                 href={link}
                 target="_blank"
                 rel="noreferrer"
-                className="group/link m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md:mr-0 md:text-xl rounded-md px-4 py-2
+                className="m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md:mr-0 md:text-xl rounded-md px-4 py-2
                 hover:bg-white hover:border-black hover:text-black"
             >
                 GitHub <i className="group/link ml-2 text-2xl fab fa-github text-white"></i>
