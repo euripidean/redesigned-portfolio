@@ -8,7 +8,11 @@ module.exports = {
       center: true,
       padding: '1rem',
     },
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1600px',
+      },
+    },
   },
   plugins: [],
 }

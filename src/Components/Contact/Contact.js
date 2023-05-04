@@ -8,15 +8,15 @@ function Contact() {
         <p className="text-2xl font-light">I'm always open to chat about collaboration, work opportunities and would be happy to answer any questions you might have!</p>
         <div className="flex flex-col items-center space-y-8 md:space-y-0 md:grid md:gap-8 md:grid-cols-3 h-72">
         <div className="flex flex-col items-center my-auto hover:scale-125">
-        <a href="https://www.linkedin.com/in/jxharrison" target="_blank" rel="noreferrer"><i className="text-black fab fa-linkedin text-8xl "></i></a>
+        <a href="https://www.linkedin.com/in/jxharrison" aria-label="View Jane's LinkedIn Profile" target="_blank" rel="noreferrer"><i className="text-black fab fa-linkedin text-8xl "></i></a>
         <p className="text-xl font-bold">jxharrison</p>
         </div>
         <div className="flex flex-col items-center my-auto hover:scale-125">
-        <a href="https://github.com/euripidean" target="_blank" rel="noreferrer"><i className="text-black fab fa-github text-8xl"></i></a>
+        <a href="https://github.com/euripidean" aria-label="Visit Jane's GitHub Profile" target="_blank" rel="noreferrer"><i className="text-black fab fa-github text-8xl"></i></a>
         <p className="text-xl text-center font-bold">@euripidean</p>
         </div>
         <div className="flex flex-col items-center my-auto hover:scale-125">
-        <a href="mailto:jxharrison@hotmail.com"><i className="fa-regular text-8xl fa-envelope"></i></a>
+        <a href="mailto:jxharrison@hotmail.com" aria-label="Send Jane an email"><i className="fa-regular text-8xl fa-envelope"></i></a>
         <p className="text-xl font-bold">Email Me</p>
         </div>
         </div>     
