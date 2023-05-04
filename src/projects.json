@@ -7,7 +7,7 @@
         "Team Leadership"
     ],
     "link" : "https://viff.org",
-    "image" : "./images/viff.png",
+    "image" : "./images/VIFF.png",
     "alt" : "Screenshot of project",
     "details": [
         "Oversaw the project from RFP to post-launch support. The project took approximately 9 months to complete and I also secured a grant of $16k to help pay for the implementation of Salesforce NPSP as the CRM.",
@@ -25,7 +25,7 @@
         "Team Leadership"
     ],
     "link" : "https://connect.viff.org",
-    "image" : "./images/viffconnect.png",
+    "image" : "./images/VIFFconnect.png",
     "alt" : "Screenshot of project",
     "details": [
         "Oversaw the emergency project to enable VIFF to host the 2020 edition of the festival online. This included choosing the streaming provider, hiring the development team to complete the API integration and demonstrating/reporting on progress to the rest of the organization.",
