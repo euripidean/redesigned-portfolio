@@ -29,7 +29,8 @@ function ProjectDetails(props) {
                     href={link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-[90%] m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md: mr-0 md:text-xl rounded-md px-4 py-2 hover:bg-white hover:border-black hover:text-black"
+                    className="m-auto text-center bg-black text-white border md:w-auto md:font-light md:text-right md:mr-0 md:text-xl rounded-md px-4 py-2
+                    hover:bg-white hover:border-black hover:text-black"
                 >
                     View Live
                 </a>
