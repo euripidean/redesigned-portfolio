@@ -1,42 +1,29 @@
-# Portfolio Page (Mobile First Responsive Project)
+# Portfolio Page Redesign -
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Wireframes
+### Original Design Screenshots
 
-#### Homepage - Desktop
-![Homepage - Desktop](https://user-images.githubusercontent.com/33559193/234379608-6e52010f-9250-47f3-8f93-83baf0e2b3da.png)
+This project was originally styled using TailwindCSS. As part of my school assignment, I need to restyle it completely using Vanilla CSS.
+![Screenshot 2023-10-25 at 9 40 03 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/c407abf8-58d0-4e2b-a4b0-f01579e412eb)
 
-### Homepage - Mobile
-![Homepage - Mobile](https://user-images.githubusercontent.com/33559193/234379768-93287839-8ec3-4033-afc8-328089f30f23.png)
+![Screenshot 2023-10-25 at 9 40 13 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/9cfc8bac-c671-43d3-87fd-cda706d9b629)
 
-### About - Desktop
-![About - Desktop](https://user-images.githubusercontent.com/33559193/234379822-0b47dfff-60e6-4f44-b123-c8bbe0458cda.png)
+![Screenshot 2023-10-25 at 10 02 37 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/03f840e4-bd51-4a09-9e1f-673a85d07518)
 
-### About - Mobile
-![About - Mobile](https://user-images.githubusercontent.com/33559193/234379865-88fd5808-468d-4397-813a-f73b9b665c51.png)
+![Screenshot 2023-10-25 at 10 03 06 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/4ff0a6e1-60d3-4b77-8522-786c450f3f40)
 
-### Projects - Desktop
-![Projects - Desktop](https://user-images.githubusercontent.com/33559193/234379920-5fd4b672-4d4e-470b-ae9a-0e7c9e4e9d24.png)
+![Screenshot 2023-10-25 at 10 03 19 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/aa91b75f-c25b-4f33-af5f-ece015ff5163)
 
-### Projects - Mobile
-![Projects - Mobile](https://user-images.githubusercontent.com/33559193/234379972-31bf4927-f577-4e69-b0c5-27e93df83fd4.png)
+![Screenshot 2023-10-25 at 9 40 43 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/c4896b11-7d67-4b89-b538-401c33be4dd6)
 
-### Project Detail - Desktop
-![Project Detail - Desktop](https://user-images.githubusercontent.com/33559193/234380041-705a75e6-77a6-47ec-80ec-ead81b5c4f36.png)
-
-### Project Detail - Mobile
-![Project Detail - Mobile](https://user-images.githubusercontent.com/33559193/234380099-ae7d43fd-c7de-47e9-8716-f6778a84670d.png)
-
-### Contact - Desktop
-![Contact - Desktop](https://user-images.githubusercontent.com/33559193/234380172-a5ef9609-1dd4-4cb9-946c-7eb25d09e860.png)
-
-### Contact - Mobile
-![Contact - Mobile](https://user-images.githubusercontent.com/33559193/234380218-1e75fed6-3803-419e-9b86-b9ef3480d6b0.png)
+![Screenshot 2023-10-25 at 9 41 56 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/a683aad6-4a09-47dc-a3d6-cd9e4d807f48)
 
 ## How to run
 
 In the project directory, you can run:
+
+`npm install`
 
 ### `npm start`
 
@@ -45,16 +32,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
