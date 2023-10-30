@@ -1,23 +1,16 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import Button from "../Button/Button";
 import "./Home.css";
 
 function Home() {
+  const [nextClicked, setNextClicked] = useState(false);
+  const [text, setText] = useState("Hi, I'm euripidean");
+
   return (
-    //
     <section id="intro">
-      <div>
-        <figure>
-          <img src="./images/profile.jpeg" alt="Jane" />
-        </figure>
-        <div>
-          <h1>
-            Hi, I'm <span>Jane</span>.
-          </h1>
-          <p>
-            I solve problems using <span>code</span>.
-          </p>
-        </div>
-      </div>
+      <h1 className={nextClicked ? "fade-in" : ""}>{text}</h1>
+      <Button>Here is some button text</Button>
     </section>
   );
 }

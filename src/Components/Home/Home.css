@@ -1,1 +1,22 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 6em;
+}
 
+h1 {
+  text-transform: lowercase;
+  font-weight: 800;
+  background: linear-gradient(#59f8e8 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+/* h1.fade-in {
+  transform: scale(0.8);
+  opacity: 1;
+} */
