@@ -4,20 +4,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Original Design Screenshots
 
-This project was originally styled using TailwindCSS. As part of my school assignment, I need to restyle it completely using Vanilla CSS.
-![Screenshot 2023-10-25 at 9 40 03 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/c407abf8-58d0-4e2b-a4b0-f01579e412eb)
+This project was originally styled using TailwindCSS. As part of my school assignment, I have restyled it completely using Vanilla CSS.
+Due to time constraints, this is not fully responsive or accessible.
 
-![Screenshot 2023-10-25 at 9 40 13 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/9cfc8bac-c671-43d3-87fd-cda706d9b629)
+![Screenshot 2023-11-12 at 7 04 19 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/410ae649-6346-4e5d-b74d-8093132aa638)
 
-![Screenshot 2023-10-25 at 10 02 37 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/03f840e4-bd51-4a09-9e1f-673a85d07518)
+![Screenshot 2023-11-12 at 7 03 58 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/74b5730e-6bc8-46ce-9773-5768e3731d7c)
 
-![Screenshot 2023-10-25 at 10 03 06 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/4ff0a6e1-60d3-4b77-8522-786c450f3f40)
+![Screenshot 2023-11-12 at 7 03 19 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/1f57d7f4-d640-4b04-bee8-43bfe9e2af43)
 
-![Screenshot 2023-10-25 at 10 03 19 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/aa91b75f-c25b-4f33-af5f-ece015ff5163)
+### New Design
 
-![Screenshot 2023-10-25 at 9 40 43 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/c4896b11-7d67-4b89-b538-401c33be4dd6)
+![Screenshot 2023-11-12 at 11 30 31 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/da73e7ea-1fce-4d2d-9848-9c5e0924152d)
 
-![Screenshot 2023-10-25 at 9 41 56 AM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/a683aad6-4a09-47dc-a3d6-cd9e4d807f48)
+Sidebar menu
+![Screenshot 2023-11-12 at 11 30 39 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/cc199063-8660-471c-af16-476920d3f27f)
+
+![Screenshot 2023-11-12 at 11 33 48 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/1e61dc68-ae88-4cae-a595-d692a5283394)
+
+![Screenshot 2023-11-12 at 11 34 32 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/495a4630-4a00-46ed-9158-2507e6a38c64)
+
+Accordion for Skills section
+![Screenshot 2023-11-12 at 11 34 49 PM](https://github.com/euripidean/redesigned-portfolio/assets/33559193/ca3fdd21-77e7-48cd-98dd-4da81ee6c763)
 
 ## How to run
 
