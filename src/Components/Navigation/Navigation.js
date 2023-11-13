@@ -1,55 +1,62 @@
-import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
+import { useState } from "react";
 import "./Navigation.css";
 
 const Navigation = () => {
   const location = useLocation();
-  const [isSticky, setIsSticky] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY >= 400) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const navToggle = () => {
-    // const menuBtn = document.getElementById("menuBtn");
-    // const menu = document.getElementById("menu");
-    if (isOpen) {
-      setIsOpen(false);
-    } else {
-      setIsOpen(true);
-    }
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <header id="top">
-      <nav id="site-menu" exact="true">
-        <div>
-          <button id="menuBtn" type="button" onClick={navToggle}></button>
-        </div>
-        <div id="menu">
-          {location.pathname !== "/" && (
-            <NavLink exact to="/">
-              home
+    <>
+      <button
+        className="toggle-button"
+        onClick={toggleSidebar}
+        style={{ color: isOpen ? "var(--background" : "var(--link-color" }}
+      >
+        {isOpen ? "✕" : "MENU"}
+      </button>
+      <div className={`sidebar ${isOpen ? "open" : ""}`}>
+        <nav>
+          <ul>
+            {location.pathname !== "/" && (
+              <NavLink
+                className={`menuItem ${({ isActive }) =>
+                  isActive ? "active" : ""}`}
+                exact
+                to="/"
+              >
+                Home
+              </NavLink>
+            )}
+            <NavLink
+              className={`menuItem ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to="/work"
+            >
+              Work
             </NavLink>
-          )}
-          <NavLink to="/work">work</NavLink>
-          <NavLink to="/about">about</NavLink>
-          <NavLink to="/contact">contact</NavLink>
-        </div>
-      </nav>
-    </header>
+            <NavLink
+              className={`menuItem ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to="/about"
+            >
+              About
+            </NavLink>
+            <NavLink
+              className={`menuItem ${({ isActive }) =>
+                isActive ? "active" : ""}`}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </ul>
+        </nav>
+      </div>
+    </>
   );
 };
 

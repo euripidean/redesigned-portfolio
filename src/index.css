@@ -5,12 +5,13 @@
   --font-color: #ffffff;
   --link-color: #59f8e8;
   --font-size: 18px;
+  --top-margin: 60px;
 }
 
 body,
 html {
   height: 100vh;
-  width: 75%;
+  max-width: 900px;
   margin: 0 auto;
   background-color: var(--background);
   font-family: var(--font);
@@ -28,4 +29,8 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 4rem;
 }

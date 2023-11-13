@@ -5,7 +5,7 @@ import "./Project.css";
 function Project(props) {
   const { id, name, description, skills, image, alt } = props;
   return (
-    <div>
+    <div className="project">
       <h2>{name}</h2>
       <h3>{description}</h3>
       <figure>

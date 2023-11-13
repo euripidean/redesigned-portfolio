@@ -1,1 +1,58 @@
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: var(--link-color);
+  opacity: 0.9;
+  transition: all 0.3s;
+}
 
+.sidebar.open {
+  left: 0;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: var(--link-color);
+  cursor: pointer;
+  z-index: 999; /* Ensure it's above the sidebar */
+}
+
+nav {
+  margin-top: var(--top-margin);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.menuItem {
+  padding: 15px;
+  font-size: var(--font-size);
+  color: var(--background);
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+& .active {
+  background-color: var(--background);
+  color: var(--link-color);
+}
+
+.menuItem:hover {
+  font-weight: bold;
+  text-underline-offset: 5px;
+  text-decoration: underline 1px var(--background);
+}
