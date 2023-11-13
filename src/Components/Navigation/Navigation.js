@@ -1,20 +1,17 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { useContext } from "react";
+import { SidebarContext } from "../../SidebarContext";
 import "./Navigation.css";
 
 const Navigation = () => {
   const location = useLocation();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
+  const { isOpen, toggleSidebar } = useContext(SidebarContext);
 
   return (
     <>
       <button
         className="toggle-button"
-        onClick={toggleSidebar}
+        onClick={() => toggleSidebar(isOpen)}
         style={{ color: isOpen ? "var(--background" : "var(--link-color" }}
       >
         {isOpen ? "✕" : "MENU"}
@@ -26,7 +23,7 @@ const Navigation = () => {
               <NavLink
                 className={`menuItem ${({ isActive }) =>
                   isActive ? "active" : ""}`}
-                exact
+                exact="true"
                 to="/"
               >
                 Home

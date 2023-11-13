@@ -1,17 +1,22 @@
-import "./App.css";
+import { useState } from "react";
+import { SidebarContext } from "./SidebarContext";
 import Navigation from "./Components/Navigation/Navigation";
-// import Footer from "./Components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <>
+    <SidebarContext.Provider value={{ isOpen, toggleSidebar }}>
       <Navigation />
       <main>
         <Outlet />
-        {/* <Footer /> */}
       </main>
-    </>
+    </SidebarContext.Provider>
   );
 }
 

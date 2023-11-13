@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section id="intro">
+    <section id="about">
       <h1>
         <span>ey up</span> /əyˈ uh-p/{" "}
       </h1>
@@ -17,7 +17,10 @@ const About = () => {
         program with Shopify.
       </p>
       <figure>
-        <img src="./images/York.jpg" alt="York Minster" />
+        <img
+          src="./images/about.gif"
+          alt="A gif of things Jane likes, including mountains, dogs and York."
+        />
       </figure>
       <p>
         As I study Applied Computer Science and complete Internship placements,
@@ -25,13 +28,15 @@ const About = () => {
         specialize in data-focused engineering.
       </p>
       <h2>Recent Work Experience</h2>
-      <section>
-        <div>
+      <section id="experience">
+        <div className="role">
           <figure>
             <img src="./images/shopify.svg" alt="Shopify Logo" />
           </figure>
-          <p>Dev Degree Intern</p>
-          <p>Aug '22 - Present</p>
+          <div className="title">
+            <p>Dev Degree Intern</p>
+            <p>Aug '22 - Present</p>
+          </div>
           <ul>
             <li>
               Completed intensive Training Path, learning HTML, CSS, JavaScript,
@@ -44,12 +49,14 @@ const About = () => {
             <li>Most recent impact review in the High Positive category</li>
           </ul>
         </div>
-        <div>
+        <div className="role">
           <figure>
             <img src="./images/VIFFLogo.png" alt="VIFF Logo" />
           </figure>
-          <p>Ticketing and CRM Manager</p>
-          <p>Aug '16 - Aug '22</p>
+          <div className="title">
+            <p>Ticketing and CRM Manager</p>
+            <p>Aug '16 - Aug '22</p>
+          </div>
           <ul>
             <li>
               Led-project to host the 2020 festival online via VIFF Connect

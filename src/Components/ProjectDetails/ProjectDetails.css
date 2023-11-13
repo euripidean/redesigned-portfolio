@@ -1,1 +1,57 @@
+#detail img {
+  margin-top: 1rem;
+}
 
+.project-name {
+  text-transform: capitalize;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.skills > li:nth-child(odd) {
+  color: var(--link-color);
+  text-underline-offset: 0.75rem;
+  text-decoration: underline 1px var(--font-color);
+}
+
+.skills > li:nth-child(even) {
+  text-underline-offset: 0.75rem;
+  text-decoration: underline 1px var(--link-color);
+}
+
+.skill-detail-box {
+  margin-top: 100px;
+}
+
+.accordion-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-heading:hover {
+  cursor: grab;
+  color: var(--link-color);
+}
+
+/* When open is added to skill class, ease in the transition */
+.skill.open {
+  transition: all 0.3s ease-in;
+}
+
+.outcome {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: var(--link-color);
+  color: var(--background);
+  border-radius: 8px;
+}
+
+.outcome > h3 {
+  font-weight: bold;
+}

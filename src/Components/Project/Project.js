@@ -12,13 +12,15 @@ function Project(props) {
         <img src={image} alt={alt} />
       </figure>
       <div>
-        <ul>
+        <ul className="skill-summary">
           {skills.map((skill, index) => {
             return <li key={index}>{skill}</li>;
           })}
         </ul>
       </div>
-      <Link to={`/details/${id}`}>View Project</Link>
+      <Link className="button" to={`/details/${id}`}>
+        View Project
+      </Link>
     </div>
   );
 }

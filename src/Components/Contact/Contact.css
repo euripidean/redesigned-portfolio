@@ -1,0 +1,40 @@
+.contact {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact p {
+  font-size: 2rem;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.contact-icon {
+  color: var(--link-color);
+  font-size: 5rem;
+  transition: transform 0.3s ease;
+}
+
+/* animate the contact-icon on hover so that it rotates 360 degrees */
+.contact-icon:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
