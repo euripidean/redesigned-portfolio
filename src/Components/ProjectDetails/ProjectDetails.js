@@ -55,6 +55,8 @@ function ProjectDetails(props) {
           </ul>
           <div className="skill-detail-box">
             {skills.map((skill, index) => {
+              // limit to the first three skills
+              if (index > 2) return null;
               return (
                 <div
                   className={`skill ${accordionOpen[index] ? "open" : ""}`}

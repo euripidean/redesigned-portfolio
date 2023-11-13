@@ -69,7 +69,11 @@ const About = () => {
           </ul>
         </div>
       </section>
-      {/* <h2>Skills</h2> */}
+      <p>
+        I live and work in the unceded territories of the xʷməθkʷəy̓əm
+        (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ/Selilwitulh
+        (Tsleil-Waututh) Nations.
+      </p>
     </section>
   );
 };
